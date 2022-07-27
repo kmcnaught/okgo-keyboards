@@ -1,0 +1,144 @@
+<Keyboard>
+  <Name>Forza</Name>
+  <Height>100%</Height>
+  <SymbolMargin>1</SymbolMargin>
+  <BorderThickness>0,0,0,0</BorderThickness>
+  <Position>Top</Position>
+  <Width>100%</Width>
+  <HorizontalOffset>0</HorizontalOffset>
+  <VerticalOffset>0</VerticalOffset>
+  <BackgroundColor>Transparent</BackgroundColor>
+  <BorderColor>Transparent</BorderColor>
+  <WindowState>Floating</WindowState>
+  <Grid>
+    <Rows>8</Rows>
+    <Cols>10</Cols>
+  </Grid>
+  <KeyGroup CompletionTimes="2%, 50%" LockOnTime="25" Name="QuickKey"/>
+  <KeyGroup Name="AcceleratingKey" BackgroundColor="black" Opacity=".9" KeyDownOpacity="1" LockOnTime="25" CompletionTimes="100%, 80%, 60%, 40%, 20%, 10%" />   
+  <Content> 
+    <DynamicKey Row="0" Col="0">
+      <KeyPress>Escape</KeyPress>
+      <Label>Esc</Label>
+    </DynamicKey>
+    <DynamicKey Row="0" Col="1">
+      <KeyPress>x</KeyPress>
+      <Label>x</Label>
+    </DynamicKey>
+    <DynamicKey Row="0" Col="2">
+      <KeyPress>Return</KeyPress>
+      <Label>Enter</Label>
+    </DynamicKey>
+    <DynamicKey Row="0" Col="3">
+      <KeyToggle>w</KeyToggle>
+      <Label>hold w</Label>
+    </DynamicKey>
+
+    <DynamicKey Row="0" Col="4">
+      <Loop Count="15">
+        <KeyPress Duration="300">w</KeyPress>
+        <Wait>5</Wait>
+      </Loop>
+
+      <Label>temp w</Label>
+    </DynamicKey>
+
+    <DynamicKey Row="0" Col="7">
+      <KeyPress>w</KeyPress>
+      <Label>Menu up (w)</Label>
+    </DynamicKey>
+    <DynamicKey Row="1" Col="7">
+      <KeyPress>s</KeyPress>
+      <Label>Menu down (s)</Label>
+    </DynamicKey>
+    <DynamicKey Row="1" Col="6">
+      <KeyPress>a</KeyPress>
+      <Label>Menu left (a)</Label>
+    </DynamicKey>
+    <DynamicKey Row="1" Col="8">
+      <KeyPress>d</KeyPress>
+      <Label>Menu right (d)</Label>
+    </DynamicKey>
+    <DynamicKey Row="0" Col="9">
+      <KeyPress>r</KeyPress>
+      <Label>r = rewind</Label>
+    </DynamicKey>
+   
+    <DynamicKey Row="1" Col="0">
+      <Loop Count="7">
+        <KeyPress Duration="125">w</KeyPress>
+        <Wait>250</Wait>
+      </Loop>
+      <Label>Slow</Label>
+    </DynamicKey>
+
+    <DynamicKey Row="1" Col="1">
+      <Loop Count="7">
+        <KeyPress Duration="150">s</KeyPress>
+        <Wait>250</Wait>
+      </Loop>
+      <Label>Slow back</Label>
+    </DynamicKey>
+
+    <DynamicKey Row="2" Col="0">
+      <Label>Brake</Label>  
+      <KeyPress Duration="750">s</KeyPress>
+      <KeyGroup>QuickKey</KeyGroup>
+    </DynamicKey>
+
+    <DynamicKey Row="2" Col="9">
+      <Label>Brake</Label>  
+      <KeyPress Duration="750">s</KeyPress>
+      <KeyGroup>QuickKey</KeyGroup>
+    </DynamicKey>
+
+    <DynamicKey Row="6" Col="0">
+      <Label>Horizontal\nsensitivity −−</Label>
+      <Action>JoystickXSensitivityDown</Action>
+      <KeyGroup>AcceleratingKey</KeyGroup>
+    </DynamicKey>
+    <DynamicKey Row="6" Col="1" >
+      <Label>WASD</Label>
+      <Action Payload="segments[4, 0.3, 2.0, 1.0]">WasdJoystick</Action>            
+    </DynamicKey>
+    <DynamicKey Row="6" Col="2" >
+      <Action Payload="piecewise[(0.1, 0), (0.5, 0.3), (1.5, 1.0)]">LeftJoystick</Action>      
+      <Label>Slow /\n fast</Label>
+    </DynamicKey>
+    <DynamicKey Row="7" Col="0">
+      <Label>Horizontal\nsensitivity ++</Label>
+      <Action>JoystickXSensitivityUp</Action>
+      <KeyGroup>AcceleratingKey</KeyGroup>
+    </DynamicKey>    
+
+    <DynamicKey Row="7" Col="2">
+      <Label>Reset\nCentre</Label>
+      <Action>ResetJoystick</Action>
+    </DynamicKey> 
+    <DynamicKey Row="7" Col="3">
+      <Action Payload="2.32, 4.86">LeftJoystick</Action>
+      <Label>Steering</Label>
+    </DynamicKey>
+    <DynamicKey Row="7" Col="4" Width="2">
+      <KeyUp>w</KeyUp>
+
+      <KeyPress Duration="400">Space</KeyPress>
+      <KeyGroup>QuickKey</KeyGroup>
+      <Label>Stopss</Label>
+    </DynamicKey>
+    <DynamicKey Row="7" Col="6">
+      <KeyPress>Space</KeyPress>
+      <KeyGroup>QuickKey</KeyGroup>
+      <Label>e-brake(Space)</Label>
+    </DynamicKey>
+    <DynamicKey Row="7" Col="7">
+      <KeyPress>m</KeyPress>
+      <Label>m = map</Label>
+    </DynamicKey>
+    <DynamicKey Row="7" Col="9">
+      <Symbol>BackIcon</Symbol>
+      <Label>Back</Label>
+      <Action>BackFromKeyboard</Action>
+    </DynamicKey>
+  </Content>
+</Keyboard>
