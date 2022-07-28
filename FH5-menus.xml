@@ -69,6 +69,10 @@
       <Action>JoystickYSensitivityDown</Action>
       <KeyGroup>AcceleratingKey</KeyGroup>
     </DynamicKey>
+    <DynamicKey Row="7" Col="0">
+      <Label>Reset\nCentre</Label>
+      <Action>ResetJoystick</Action>
+    </DynamicKey> 
     <DynamicKey Row="7" Col="4">
       <Label>DOWN</Label>
       <KeyPress>s</KeyPress>
