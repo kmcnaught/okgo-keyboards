@@ -116,8 +116,8 @@
       <Action>ResetJoystick</Action>
     </DynamicKey> 
     <DynamicKey Row="7" Col="3">
-      <Action Payload="2.32, 4.86">LeftJoystick</Action>
-      <Label>Steering</Label>
+      <Action>LeftJoystick</Action>
+      <Label>Joystick</Label>
     </DynamicKey>
     <DynamicKey Row="7" Col="4" Width="2">
       <KeyUp>w</KeyUp>
