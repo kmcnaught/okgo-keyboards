@@ -49,8 +49,8 @@
       <KeyUp>Forward</KeyUp>
       <KeyGroup>forward</KeyGroup>
       <Label>med</Label>
-      <Loop Count="7">
-        <KeyPress Duration="200">w</KeyPress>
+      <Loop Count="0">
+        <KeyPress Duration="150">w</KeyPress>
         <Wait>100</Wait>
       </Loop>
     </DynamicKey>
