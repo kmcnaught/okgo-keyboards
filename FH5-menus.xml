@@ -45,6 +45,10 @@
       <Label>RIGHT</Label>
       <KeyPress>d</KeyPress>
     </DynamicKey>
+    <DynamicKey Row="0" Col="8">
+      <Label>rewind</Label>
+      <KeyPress>r</KeyPress>
+    </DynamicKey>
     <DynamicKey Row="5" Col="1">
       <Label>Vertical\nsensitivity ++</Label>
       <Action>JoystickYSensitivityUp</Action>
