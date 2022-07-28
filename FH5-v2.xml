@@ -95,5 +95,29 @@
       <KeyGroup>QuickKey</KeyGroup>
       <Label>Stop</Label>
     </DynamicKey>
+    <DynamicKey Row="5" Col="1">
+      <Label>Vertical\nsensitivity ++</Label>
+      <Action>JoystickYSensitivityUp</Action>
+      <KeyGroup>AcceleratingKey</KeyGroup>
+    </DynamicKey>
+    <DynamicKey Row="6" Col="0">
+      <Label>Horizontal\nsensitivity --</Label>
+      <Action>JoystickXSensitivityDown</Action>
+      <KeyGroup>AcceleratingKey</KeyGroup>
+    </DynamicKey>
+    <DynamicKey Row="6" Col="1">
+      <Label>Steer</Label>
+      <Action>LeftJoystick</Action>
+    </DynamicKey>
+    <DynamicKey Row="6" Col="2">
+      <Label>Horizontal\nsensitivity ++</Label>
+      <Action>JoystickXSensitivityUp</Action>
+      <KeyGroup>AcceleratingKey</KeyGroup>      
+    </DynamicKey>
+    <DynamicKey Row="7" Col="1">
+      <Label>Vertical\nsensitivity −−</Label>
+      <Action>JoystickYSensitivityDown</Action>
+      <KeyGroup>AcceleratingKey</KeyGroup>
+    </DynamicKey>
   </Content>
 </Keyboard>
