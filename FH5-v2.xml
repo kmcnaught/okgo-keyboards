@@ -115,6 +115,10 @@
       <Action>JoystickXSensitivityUp</Action>
       <KeyGroup>AcceleratingKey</KeyGroup>      
     </DynamicKey>
+    <DynamicKey Row="7" Col="0">
+      <Label>Reset\nCentre</Label>
+      <Action>ResetJoystick</Action>
+    </DynamicKey> 
     <DynamicKey Row="7" Col="1">
       <Label>Vertical\nsensitivity −−</Label>
       <Action>JoystickYSensitivityDown</Action>
