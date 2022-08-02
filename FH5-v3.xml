@@ -86,6 +86,11 @@
     
      
 
+    <!-- joystick settings - we will remove these later -->
+    <DynamicKey Row="5" Col="0">
+      <Label>Copy\nsettings</Label>
+      <Action>CopyJoystickSettings</Action>
+    </DynamicKey>
     <DynamicKey Row="5" Col="1">
       <Label>Vertical\nsensitivity ++</Label>
       <Action>JoystickYSensitivityUp</Action>
