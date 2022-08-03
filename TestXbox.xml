@@ -39,6 +39,8 @@ Copyright (c) K McNaught Consulting Ltd (UK company number 11297717) - All Right
       <Action Payload="2.5">RightJoystick</Action>
     </DynamicKey>
     <DynamicKey Col="7" Row="0">
+      <Label>Minimise</Label>
+      <Action>Minimise</Action>
       <!-- <Label>R - slow</Label>
       <Action Payload="1.0">RightJoystick</Action> -->
     </DynamicKey>
