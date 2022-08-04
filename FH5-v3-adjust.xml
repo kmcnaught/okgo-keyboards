@@ -1,5 +1,5 @@
 <Keyboard>
-  <Name>Forza-3</Name>
+  <Name>Forza\nadjust</Name>
   <Height>100%</Height>
   <SymbolMargin>1</SymbolMargin>
   <BorderThickness>0,0,0,0</BorderThickness>
@@ -43,7 +43,7 @@
       <KeyPress>XboxStart</KeyPress>
     </DynamicKey>
     <DynamicKey Row="0" Col="7">
-      <ChangeKeyboard ReturnToThisKeyboard="true">TestXBox</ChangeKeyboard>
+      <ChangeKeyboard ReturnToThisKeyboard="true">TestXBox-adjust</ChangeKeyboard>
       <Label>More\nkeys</Label>
     </DynamicKey>
 

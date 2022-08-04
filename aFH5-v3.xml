@@ -1,0 +1,98 @@
+<Keyboard>
+  <Name>Forza</Name>
+  <Height>100%</Height>
+  <SymbolMargin>1</SymbolMargin>
+  <BorderThickness>0,0,0,0</BorderThickness>
+  <Position>Top</Position>
+  <Width>100%</Width>
+  <HorizontalOffset>0</HorizontalOffset>
+  <VerticalOffset>0</VerticalOffset>
+  <BackgroundColor>Transparent</BackgroundColor>
+  <BorderColor>Transparent</BorderColor>
+  <WindowState>Floating</WindowState>
+  <Grid>
+    <Rows>8</Rows>
+    <Cols>10</Cols>
+  </Grid>
+  <KeyGroup CompletionTimes="2%, 50%" LockOnTime="25" Name="QuickKey"/>
+  <KeyGroup Name="AcceleratingKey" BackgroundColor="black" Opacity=".9" KeyDownOpacity="1" LockOnTime="25" CompletionTimes="100%, 80%, 60%, 40%, 25%, 25%" />   
+  <KeyGroup Name="Forward" BackgroundColor="black" Opacity=".9" />
+  <KeyGroup Name="Backward" BackgroundColor="black" Opacity=".9" />
+  
+  <Content>
+
+    <!-- top left -->
+    <DynamicKey Row="0" Col="1">
+      <Label>Esc</Label>
+      <KeyPress>Escape</KeyPress>
+    </DynamicKey>
+    <DynamicKey Row="0" Col="2">
+      <Label>rewind</Label>
+      <KeyPress>r</KeyPress>
+    </DynamicKey>
+    <DynamicKey Row="0" Col="3">
+      <Label>photo</Label>
+      <KeyPress>XBoxUp</KeyPress>
+    </DynamicKey>
+
+
+
+    <!-- top right -->    
+    <DynamicKey Row="0" Col="6">
+      <Label>menu</Label>
+      <KeyPress>XboxStart</KeyPress>
+    </DynamicKey>
+    <DynamicKey Row="0" Col="7">
+      <ChangeKeyboard ReturnToThisKeyboard="true">TestXBox</ChangeKeyboard>
+      <Label>More\nkeys</Label>
+    </DynamicKey>
+
+    <DynamicKey Row="0" Col="8">
+      <Symbol>BackIcon</Symbol>
+      <Label>Back</Label>
+      <Action>BackFromKeyboard</Action>
+    </DynamicKey>
+
+    <!-- hand brakes for turns -->
+    <DynamicKey Row="2" Col="0">
+      <Label>e-brake</Label>      
+      <KeyPress Duration="200">XBoxLeftThumb|NorthWest|0.5</KeyPress>
+      <KeyPress Duration="200">XboxLeftTrigger</KeyPress>
+      <KeyGroup>QuickKey</KeyGroup>
+    </DynamicKey>
+    <DynamicKey Row="2" Col="9">
+      <Label>e-brake</Label>
+      <KeyPress Duration="200">XBoxLeftThumb|NorthEast|0.5</KeyPress>
+      <KeyPress Duration="200">XboxLeftTrigger</KeyPress>
+      <KeyGroup>QuickKey</KeyGroup>
+    </DynamicKey>
+
+
+
+    <!-- bottom middle -->    
+    <DynamicKey Row="7" Col="2">
+      <Label>Steer with\ntriggers</Label>
+      <Action>LegacyTriggerJoystick</Action> 
+    </DynamicKey>
+
+    <DynamicKey Row="7" Col="3">
+      <Label>Steer</Label>
+      <Action>LeftJoystick</Action>
+    </DynamicKey>
+    <DynamicKey Row="7" Col="4" Width="2">
+      <KeyUp>w</KeyUp>
+      <KeyUp>Forward</KeyUp>
+      <KeyPress Duration="400">Space</KeyPress>
+      <KeyGroup>QuickKey</KeyGroup>
+       <Label>Stop</Label>
+    </DynamicKey>
+
+    <DynamicKey Row="7" Col="6">
+      <Label>Reset\nCentre</Label>
+      <Action>ResetJoystick</Action>
+    </DynamicKey>
+
+    
+     
+  </Content>
+</Keyboard>
