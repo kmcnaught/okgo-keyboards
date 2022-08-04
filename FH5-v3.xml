@@ -56,13 +56,13 @@
     <!-- hand brakes for turns -->
     <DynamicKey Row="2" Col="0">
       <Label>e-brake</Label>      
-      <KeyPress Duration="50">XBoxLeftThumb|West|0.5</KeyPress>
+      <KeyPress Duration="200">XBoxLeftThumb|NorthWest|0.5</KeyPress>
       <KeyPress Duration="200">XboxLeftTrigger</KeyPress>
       <KeyGroup>QuickKey</KeyGroup>
     </DynamicKey>
     <DynamicKey Row="2" Col="9">
       <Label>e-brake</Label>
-      <KeyPress Duration="100">XBoxLeftThumb|East|0.5</KeyPress>
+      <KeyPress Duration="200">XBoxLeftThumb|NorthEast|0.5</KeyPress>
       <KeyPress Duration="200">XboxLeftTrigger</KeyPress>
       <KeyGroup>QuickKey</KeyGroup>
     </DynamicKey>

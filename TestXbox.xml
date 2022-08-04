@@ -28,7 +28,7 @@ Copyright (c) K McNaught Consulting Ltd (UK company number 11297717) - All Right
     </DynamicKey>
     <DynamicKey Col="2" Row="0">
       <Label>L Joy\n(slow)</Label>
-      <Action Payload="1.3, 1.65">LeftJoystick</Action> 
+      <Action Payload="1.1, 1.5">LeftJoystick</Action> 
     </DynamicKey>
     <DynamicKey Col="3" Row="0">
       <Label>L Joy\n(move)</Label>
@@ -36,11 +36,11 @@ Copyright (c) K McNaught Consulting Ltd (UK company number 11297717) - All Right
     </DynamicKey>
     <DynamicKey Col="6" Row="0">
       <Label>Zoom in</Label>
-      <KeyPress Duration="200">XBoxLeftThumb|North|1.0</KeyPress>
+      <KeyPress Duration="200">XBoxRightThumb|North|1.0</KeyPress>
     </DynamicKey>
     <DynamicKey Col="7" Row="0">
       <Label>Zoom out</Label>
-      <KeyPress Duration="200">XBoxLeftThumb|South|1.0</KeyPress>
+      <KeyPress Duration="200">XBoxRightThumb|South|1.0</KeyPress>
     </DynamicKey>
 
 <!--     <DynamicKey Col="7" Row="0">
