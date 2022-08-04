@@ -70,6 +70,14 @@ Copyright (c) K McNaught Consulting Ltd (UK company number 11297717) - All Right
       <Symbol>ArrowPointingToBottomIcon</Symbol>      
       <KeyPress>XBoxDown</KeyPress>
     </DynamicKey>
+    <DynamicKey Col="8" Row="2">
+      <Label>A</Label>      
+      <KeyPress>XboxA</KeyPress>
+    </DynamicKey>
+    <DynamicKey Col="7" Row="1">
+      <Label>B</Label>    
+      <KeyPress>XboxB</KeyPress>
+    </DynamicKey>
     
 
     <!-- <DynamicKey Col="7" Row="0">
