@@ -56,33 +56,32 @@
     <!-- hand brakes for turns -->
     <DynamicKey Row="2" Col="0">
       <Label>e-brake</Label>      
-      <KeyPress Duration="200">XBoxLeftThumb|NorthWest|0.5</KeyPress>
-      <KeyPress Duration="200">XboxLeftTrigger</KeyPress>
+      <KeyPress Duration="300">XBoxLeftThumb|NorthWest|1.0</KeyPress>
+      <KeyPress Duration="300">XboxLeftTrigger</KeyPress>
       <KeyGroup>QuickKey</KeyGroup>
     </DynamicKey>
     <DynamicKey Row="2" Col="9">
       <Label>e-brake</Label>
-      <KeyPress Duration="200">XBoxLeftThumb|NorthEast|0.5</KeyPress>
-      <KeyPress Duration="200">XboxLeftTrigger</KeyPress>
+      <KeyPress Duration="300">XBoxLeftThumb|NorthEast|1.0</KeyPress>
+      <KeyPress Duration="300">XboxLeftTrigger</KeyPress>
       <KeyGroup>QuickKey</KeyGroup>
     </DynamicKey>
 
 
 
     <!-- bottom middle -->    
-    <DynamicKey Row="7" Col="2">
+   <!--  <DynamicKey Row="7" Col="2">
       <Label>Steer with\ntriggers</Label>
-      <Action>LegacyTriggerJoystick</Action> 
-    </DynamicKey>
+      <Action Payload="3.0, -3.0">LegacyTriggerJoystick</Action> 
+    </DynamicKey> -->
 
     <DynamicKey Row="7" Col="3">
       <Label>Steer</Label>
-      <Action>LeftJoystick</Action>
+      <Action Payload="2.0, 2.6">LeftJoystick</Action>
     </DynamicKey>
+
     <DynamicKey Row="7" Col="4" Width="2">
-      <KeyUp>w</KeyUp>
-      <KeyUp>Forward</KeyUp>
-      <KeyPress Duration="400">Space</KeyPress>
+      <KeyPress Duration="500">XboxLeftTrigger</KeyPress>
       <KeyGroup>QuickKey</KeyGroup>
        <Label>Stop</Label>
     </DynamicKey>

@@ -44,10 +44,11 @@ Copyright (c) K McNaught Consulting Ltd (UK company number 11297717) - All Right
       <KeyPress Duration="200">XBoxRightThumb|South|1.0</KeyPress>
     </DynamicKey>
 
-<!--     <DynamicKey Col="7" Row="0">
+    <DynamicKey Col="9" Row="1">
       <Label>Minimise</Label>
       <Action>Minimise</Action>
-    </DynamicKey> -->
+    </DynamicKey> 
+
     <DynamicKey Col="9" Row="0">
       <Label>D-pad</Label>
       <KeyGroup>HalfSpeed</KeyGroup>
