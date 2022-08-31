@@ -58,29 +58,22 @@
     <DynamicKey Row="2" Col="0">
       <Label>e-brake</Label>      
       <KeyPress Duration="200">XBoxLeftThumb|NorthWest|0.5</KeyPress>
-      <KeyPress Duration="200">XboxLeftTrigger</KeyPress>
+      <KeyPress Duration="200">XboxA</KeyPress>
       <KeyGroup>QuickKey</KeyGroup>
     </DynamicKey>
     <DynamicKey Row="2" Col="9">
       <Label>e-brake</Label>
       <KeyPress Duration="200">XBoxLeftThumb|NorthEast|0.5</KeyPress>
-      <KeyPress Duration="200">XboxLeftTrigger</KeyPress>
+      <KeyPress Duration="200">XboxA</KeyPress>
       <KeyGroup>QuickKey</KeyGroup>
     </DynamicKey>
 
 
     <DynamicKey Row="7" Col="3">
-      <Label>Steer</Label>
+      <Action Payload="1.3, 1.3">LegacyTriggerJoystick</Action>
       <Action>LeftJoystick</Action>
     </DynamicKey>
-    <DynamicKey Row="7" Col="4" Width="2">
-      <KeyUp>w</KeyUp>
-      <KeyUp>Forward</KeyUp>
-      <KeyPress Duration="400">Space</KeyPress>
-      <KeyGroup>QuickKey</KeyGroup>
-       <Label>Stop</Label>
-    </DynamicKey>
-
+    
     <DynamicKey Row="7" Col="6">
       <Label>Reset\nCentre</Label>
       <Action>ResetJoystick</Action>
