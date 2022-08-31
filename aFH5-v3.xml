@@ -67,23 +67,9 @@
       <KeyGroup>QuickKey</KeyGroup>
     </DynamicKey>
 
-
-
-    <!-- bottom middle -->    
-   <!--  <DynamicKey Row="7" Col="2">
-      <Label>Steer with\ntriggers</Label>
-      <Action Payload="3.0, -3.0">LegacyTriggerJoystick</Action> 
-    </DynamicKey> -->
-
     <DynamicKey Row="7" Col="3">
       <Label>Steer</Label>
       <Action Payload="2.0, 2.6">LeftJoystick</Action>
-    </DynamicKey>
-
-    <DynamicKey Row="7" Col="4" Width="2">
-      <KeyPress Duration="500">XboxLeftTrigger</KeyPress>
-      <KeyGroup>QuickKey</KeyGroup>
-       <Label>Stop</Label>
     </DynamicKey>
 
     <DynamicKey Row="7" Col="6">
