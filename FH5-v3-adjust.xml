@@ -70,8 +70,8 @@
 
 
     <DynamicKey Row="7" Col="3">
-      <Action Payload="1.3, 1.3">LegacyTriggerJoystick</Action>
-      <Action>LeftJoystick</Action>
+      <Label>Steer</Label>
+      <Action>LegacyTriggerJoystick</Action>
     </DynamicKey>
     
     <DynamicKey Row="7" Col="6">
