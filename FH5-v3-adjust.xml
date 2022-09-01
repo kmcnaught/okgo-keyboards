@@ -50,6 +50,7 @@
     <DynamicKey Row="0" Col="8">
       <Symbol>BackIcon</Symbol>
       <Label>Back</Label>
+      <Action>ResetAllJoystickSettings</Action>
       <Action>BackFromKeyboard</Action>
     </DynamicKey>
 
@@ -67,13 +68,6 @@
       <KeyGroup>QuickKey</KeyGroup>
     </DynamicKey>
 
-
-
-    <!-- bottom middle -->    
-  <!--   <DynamicKey Row="7" Col="2">
-      <Label>Steer with\ntriggers</Label>
-      <Action>LegacyTriggerJoystick</Action> 
-    </DynamicKey> -->
 
     <DynamicKey Row="7" Col="3">
       <Label>Steer</Label>
