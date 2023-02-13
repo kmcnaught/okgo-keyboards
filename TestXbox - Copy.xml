@@ -1,0 +1,122 @@
+<!--  
+Copyright (c) K McNaught Consulting Ltd (UK company number 11297717) - All Rights Reserved
+-->
+<Keyboard>
+  <Name>joy-test</Name>
+  <SymbolMargin>10</SymbolMargin>
+  <BackgroundColor>Transparent</BackgroundColor>
+  <Height>100%</Height>
+  <Width>100%</Width>
+  <Position>Bottom</Position>
+  <HideFromKeyboardMenu>false</HideFromKeyboardMenu>
+  <BackgroundColor>Transparent</BackgroundColor>
+  <BorderColor>Transparent</BorderColor>
+  <Grid>
+    <Rows>7</Rows>
+    <Cols>10</Cols>
+  </Grid>
+  <KeyGroup BackgroundColor="black" CompletionTimes="10, 1000" KeyDownOpacity="1" LockOnTime="25" Name="QuickKey" Opacity=".9"/>
+  <KeyGroup BackgroundColor="black" CompletionTimes="50%" KeyDownOpacity="1" LockOnTime="25" Name="HalfSpeed" Opacity=".9"/>
+  <KeyGroup AutoScaleToOneKeyHeight="false" AutoScaleToOneKeyWidth="false" Name="Scaling"/>
+  <Content>
+    <DynamicKey Col="0" Row="0">
+      <Label>Set L: 0.5, 0.5</Label>
+      <Action Payload=" LeftJoystick:0.5,0.5">SetJoystickCentre</Action>
+    </DynamicKey>
+    <DynamicKey Col="0" Row="1">
+      <Label>Set L: 900, 200</Label>
+      <Action Payload="LeftJoystick : 900, 200">SetJoystickCentre</Action>
+    </DynamicKey>
+     <DynamicKey Col="0" Row="2">
+      <Label>Set L: 25%</Label>
+      <Action Payload="LeftJoystick:25, 25 %  ">SetJoystickCentre</Action>
+    </DynamicKey>
+    <DynamicKey Col="0" Row="3">
+      <Label>Set L: 0.5, 0.5</Label>
+      <Action Payload="LeftJoyssstick:0.5,0.5">SetJoystickCentre</Action>
+    </DynamicKey>
+    <DynamicKey Col="0" Row="4">
+      <Label>Set L: 900, 200</Label>
+      <Action Payload="LeftJoystick:9ss00, 200">SetJoystickCentre</Action>
+    </DynamicKey>
+     <DynamicKey Col="0" Row="5">
+      <Label>Set L: 25%</Label>
+      <Action Payload="LeftJoystick:25%, 25s%">SetJoystickCentre</Action>
+    </DynamicKey>
+    <DynamicKey Col="2" Row="6">
+      <Label>L Joy\n(slow)</Label>
+      <Action>ResetAllJoystickSettings</Action>
+      <Action Payload="1.1, 1.5">LeftJoystick</Action> 
+    </DynamicKey>
+    <DynamicKey Col="3" Row="6">
+      <Label>L Joy\n(move)</Label>
+      <Action>ResetAllJoystickSettings</Action>
+      <Action Payload="1.6, 2.1">LeftJoystick</Action>
+    </DynamicKey>
+    <DynamicKey Col="6" Row="6">
+      <Label>R Joy</Label>
+      <Action>RightJoystick</Action>
+    </DynamicKey>
+    <DynamicKey Col="7" Row="6">
+      <Label>L Joy</Label>
+      <Action>LeftJoystick</Action>
+    </DynamicKey>
+
+    <DynamicKey Col="9" Row="1">
+      <Label>No Joy</Label>
+      <Action>NoJoystick</Action>
+    </DynamicKey> 
+
+    <DynamicKey Col="9" Row="0">
+      <Label>D-pad</Label>
+      <KeyGroup>HalfSpeed</KeyGroup>
+      <ChangeKeyboard BackReturnsHere="False">TestXboxMore</ChangeKeyboard>
+    </DynamicKey>
+    
+    <!-- <DynamicKey Col="7" Row="0">
+      <Label>Walk</Label>
+      <KeyToggle PauseWhenLookingAtAnyKey="true">XBoxLeftThumb|North|0.75</KeyToggle>
+    </DynamicKey> -->
+    <DynamicKey Col="2" Row="0">      
+      <Label>LB</Label>
+      <KeyPress>XboxLeftShoulder</KeyPress>
+    </DynamicKey>
+     
+    <DynamicKey Col="0" Row="4">
+      <Label>A</Label>      
+      <KeyPress>XboxA</KeyPress>
+    </DynamicKey>
+    <DynamicKey Col="0" Row="5">
+      <Label>B</Label>      
+      <KeyPress>XboxB</KeyPress>
+    </DynamicKey>
+    <DynamicKey Col="0" Row="6">
+      <Label>Reset\nCentre</Label>
+      <Action>ResetJoystick</Action>
+    </DynamicKey>
+
+    
+    <DynamicKey Col="9" Row="4">
+      <Label>X</Label>  
+      <KeyPress>XboxX</KeyPress>    
+    </DynamicKey>
+    <DynamicKey Col="9" Row="5">
+      <Label>Y</Label>
+      <KeyPress>XboxY</KeyPress>                
+    </DynamicKey>
+   
+    <DynamicKey Col="7" Row="0">
+        <Label>RB</Label>
+        <KeyPress>XboxRightShoulder</KeyPress>                
+    </DynamicKey>
+    
+    <DynamicKey Col="9" Row="6">
+      <Symbol>BackIcon</Symbol>
+      <Action>BackFromKeyboard</Action>
+    </DynamicKey>
+    <!-- <DynamicKey Col="0" Row="6">
+      <Label>Joystick\nSettings</Label>
+      <ChangeKeyboard BackReturnsHere="True">../joystick_settings</ChangeKeyboard>
+    </DynamicKey> -->
+  </Content>
+</Keyboard>

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Keyboard>
+    <Name>Hogwarts Legacy</Name>
+    <SymbolMargin>10</SymbolMargin>
+    <BackgroundColor>Transparent</BackgroundColor>
+    <Height>90%</Height>
+    <Position>Top</Position>
+    <VerticalOffset>5%</VerticalOffset>
+    <Width>
+        98%</Width>
+    <BackgroundColor>Transparent</BackgroundColor>
+    <BorderColor>Transparent</BorderColor>
+    <WindowState>Floating</WindowState>
+    <Grid>
+        <Rows>18</Rows>
+        <Cols>
+            22</Cols>
+    </Grid>
+    <KeyGroup BackgroundColor="black" CompletionTimes="1%, 10%" KeyDownOpacity="1" LockOnTime="0"
+        Name="QuickKey" Opacity="1,0" />
+    <!-- -->
+    <KeyGroup BackgroundColor="black" CompletionTimes="10%" KeyDownOpacity="0" LockOnTime="0"
+        Name="HalfSpeed" Opacity="0.0" />
+    <KeyGroup AutoScaleToOneKeyHeight="false" AutoScaleToOneKeyWidth="false" Name="Scaling" />
+
+    <Content>
+        <!-- <DynamicKey Col="0" Height="2" Row="0" Width="2">
+            <Label>
+                Fishing</Label>
+            <ChangeKeyboard BackReturnsHere="False">disney dreamlight valley Fishing</ChangeKeyboard>
+            <KeyGroup>QuickKey</KeyGroup> TODO: 50% dwell or something -->
+
+        <DynamicKey Col="2" Height="2" Row="0" Width="2">
+            <Label>Precision\nTank</Label>
+            <Action Payload="0.5">LegacyJoystick</Action>
+        </DynamicKey>
+        <DynamicKey Col="4" Height="2" Row="0" Width="2">
+            <Label>Tank\ncontrols</Label>
+            <Action>
+                LegacyJoystick</Action>
+        </DynamicKey>
+        <DynamicKey Col="6" Height="2" Row="0" Width="2">
+            <Label>Move</Label>
+            <Action>LeftJoystick</Action>
+        </DynamicKey>
+        <DynamicKey Col="13" Height="2" Row="0" Width="2">
+            <Label>Look</Label>
+            <Action>RightJoystick</Action>
+        </DynamicKey>
+        <DynamicKey Col="15" Height="2" Row="0" Width="2">
+            <Label>Walk</Label>
+            <KeyToggle PauseWhenLookingAtAnyKey="true">
+                XBoxLeftThumb|Forward|1.0</KeyToggle>
+        </DynamicKey>
+        <DynamicKey Col="17" Height="2" Row="0" Width="2">
+            <Label>Precision\nLook</Label>
+            <Action Payload="0.5">
+                RightJoystick</Action>
+        </DynamicKey>
+        <!-- <DynamicKey Col="0" Height="2" Row="2" Width="2">
+      <Label>Toggle\ndrone</Label>
+      <KeyDown>XboxA</KeyDown>
+      <Wait>100</Wait>
+      <KeyUp>XboxA</KeyUp>
+      <Wait>200</Wait>
+      <KeyDown>XboxA</KeyDown>
+      <Wait>300</Wait>
+      <KeyUp>XboxA</KeyUp>
+    </DynamicKey> -->
+        <DynamicKey Col="1" Height="2" Row="2" Width="2">
+            <Label>Slow\nwalk</Label>
+            <KeyToggle PauseWhenLookingAtAnyKey="true">
+                XBoxLeftThumb|Forward|0.5</KeyToggle>
+        </DynamicKey>
+        <DynamicKey Col="3" Height="2" Row="2" Width="2">
+            <Label>LT\nToggle</Label>
+            <KeyToggle PauseWhenLookingAtThisKey="true">
+                XboxLeftTrigger</KeyToggle>
+        </DynamicKey>
+        <DynamicKey Col="5" Height="2" Row="2" Width="2">
+            <Label>LT\ndelete</Label>
+            <KeyDown>XboxLeftTrigger</KeyDown>
+            <Wait>
+                600</Wait>
+            <KeyUp>XboxLeftTrigger</KeyUp>
+        </DynamicKey>
+        <DynamicKey Col="14" Height="2" Row="2" Width="2">
+            <Label>RT\nPlace</Label>
+            <KeyDown>XboxRightTrigger</KeyDown>
+            <Wait>200</Wait>
+            <KeyUp>XboxRightTrigger</KeyUp>
+        </DynamicKey>
+        <DynamicKey Col="16" Height="2" Row="2" Width="2">
+            <Label>RT\nToggle</Label>
+            <KeyToggle PauseWhenLookingAtThisKey="true">XboxRightTrigger</KeyToggle>
+        </DynamicKey>
+        <DynamicKey Col="4" Height="2" Row="12" Width="2">
+            <Label>X</Label>
+            <KeyGroup>QuickKey</KeyGroup>
+            <KeyDown>
+                XboxX</KeyDown>
+            <Wait>200</Wait>
+            <KeyUp>XboxX</KeyUp>
+        </DynamicKey>
+        <DynamicKey Col="2" Height="2" Row="13" Width="2">
+            <Label>B</Label>
+            <KeyGroup>QuickKey</KeyGroup>
+            <KeyDown>
+                XboxB</KeyDown>
+            <Wait>200</Wait>
+            <KeyUp>XboxB</KeyUp>
+        </DynamicKey>
+        <DynamicKey Col="6" Height="2" Row="10" Width="2">
+            <Label>A</Label>
+            <KeyGroup>QuickKey</KeyGroup>
+            <KeyDown>
+                XboxA</KeyDown>
+            <Wait>200</Wait>
+            <KeyUp>XboxA</KeyUp>
+        </DynamicKey>
+        <DynamicKey Col="1" Height="2" Row="10" Width="2">
+            <Label>Y</Label>
+            <KeyGroup>QuickKey</KeyGroup>
+            <KeyDown>
+                XboxY</KeyDown>
+            <Wait>
+                200</Wait>
+            <KeyUp>XboxY</KeyUp>
+        </DynamicKey>
+
+
+        <DynamicKey Col="3" Height="2" Row="9" Width="2">
+            <Label>Quick RT</Label>
+            <KeyGroup>QuickKey</KeyGroup>
+            <KeyDown>
+                XboxRightTrigger</KeyDown>
+            <Wait>200</Wait>
+            <KeyUp>XboxRightTrigger</KeyUp>
+        </DynamicKey>
+
+        <DynamicKey Col="20" Height="2" Row="12" Width="2">
+            <Label>Menu</Label>
+            <KeyPress>XboxStart</KeyPress>
+        </DynamicKey>
+
+        <DynamicKey Col="4" Height="2" Row="16" Width="2">
+            <Label>Revelio</Label>
+            <KeyDown>XboxLeft</KeyDown>
+            <Wait>200</Wait>
+            <KeyUp>XboxLeft</KeyUp>
+        </DynamicKey>
+        <DynamicKey Col="16" Height="2" Row="16" Width="2">
+            <Label>RB</Label>
+            <KeyDown>XboxRightShoulder</KeyDown>
+            <Wait>200</Wait>
+            <KeyUp>XboxRightShoulder</KeyUp>
+        </DynamicKey>
+        <DynamicKey Col="20" Height="2" Row="16" Width="2">
+            <Label>Back</Label>
+            <Action>BackFromKeyboard</Action>
+        </DynamicKey>
+    </Content>
+</Keyboard>

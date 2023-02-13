@@ -1,0 +1,94 @@
+<Keyboard>
+  <Name>TestingK</Name>
+  <WindowState>Docked</WindowState>
+  <Position>Bottom</Position>
+  <Width>100%</Width>
+  <SymbolMargin>10</SymbolMargin>
+  <BorderThickness>0,0,0,20</BorderThickness>
+  <BackgroundColor>Transparent</BackgroundColor>
+  <Grid>
+    <Rows>1</Rows>
+    <Cols>12</Cols>
+  </Grid>
+
+  <KeyGroup Name="Grey" BackgroundColor="#353737" />
+
+  <KeyGroup Name="abc" BackgroundColor="#907070" AutoScaleToOneKeyWidth="false" />
+  <KeyGroup Name="123" BackgroundColor="#7070aa" AutoScaleToOneKeyWidth="false" />
+
+  <KeyGroup Name="symbols" BackgroundColor="#709070" AutoScaleToOneKeyWidth="false" />
+  <KeyGroup Name="modifiers" AutoScaleToOneKeyWidth="false" />
+  <KeyGroup Name="functions1" BackgroundColor="#D69002" AutoScaleToOneKeyWidth="false" />
+  <KeyGroup Name="functions2" BackgroundColor="#D6AA1A" AutoScaleToOneKeyWidth="false" />
+  <KeyGroup Name="functions3" BackgroundColor="#709070" AutoScaleToOneKeyWidth="false" />
+  <KeyGroup Name="arrows" BackgroundColor="#907090" AutoScaleToOneKeyWidth="false" />
+
+  <KeyGroup Name="functions1-disabled" BackgroundColor="#D69002" ForegroundColor="white" AutoScaleToOneKeyWidth="false" />
+  <KeyGroup Name="functions2-disabled" BackgroundColor="#D6AA1A" ForegroundColor="white" AutoScaleToOneKeyWidth="false" />
+  <KeyGroup Name="arrows-disabled" BackgroundColor="#907090" ForegroundColor="white" AutoScaleToOneKeyWidth="false" />
+
+  <Content>
+<!-- <Scratchpad Row="0" Col="0" Width="11" Height="1" BackgroundColor="black" Opacity="1" KeyDownBackground="gray" KeyDownOpacity="1" />
+ -->
+    <DynamicKey>      
+      <Action>MouseMagnifier</Action><Label>Magnifier</Label><Symbol>MouseMagnifierIcon</Symbol>
+    </DynamicKey>
+
+   <DynamicKey><KeyGroup>functions1</KeyGroup><Action>MouseMoveAndLeftClick</Action><Action>ClearScratchpad</Action><Label>Left Click</Label><Symbol>MouseLeftClickIcon</Symbol></DynamicKey>
+
+<DynamicKey><Label>Shift</Label><KeyToggle>LeftShift</KeyToggle></DynamicKey>
+
+    <DynamicKey AutoScaleToOneKeyWidth="false">
+      <Label>? text</Label>
+      <Text>?</Text>
+    </DynamicKey>
+    <DynamicKey AutoScaleToOneKeyWidth="false">
+      <Label>/ text</Label>
+      <Text>/</Text>
+    </DynamicKey>
+
+    <DynamicKey AutoScaleToOneKeyWidth="false">
+      <Label>? key</Label>
+      <KeyDown>?</KeyDown>
+      <Wait>200</Wait>
+      <KeyUp>?</KeyUp>
+      <KeyUp>LeftCtrl</KeyUp>
+    </DynamicKey>
+    <DynamicKey AutoScaleToOneKeyWidth="false">
+      <Label>/ key</Label>
+      <KeyDown>/</KeyDown>
+      <Wait>200</Wait>
+      <KeyUp>/</KeyUp>
+      <KeyUp>LeftCtrl</KeyUp>
+    </DynamicKey>
+   
+   <DynamicKey>
+  <Label>Space Loop</Label>
+  <Symbol>SpaceIcon</Symbol>
+  <Loop Count="0">
+    <Text>&#32;</Text>
+  </Loop>
+</DynamicKey>
+
+
+    <DynamicKey>
+      <Label>Click Loop</Label>
+      <Loop Count="0">          
+                 <Action>MouseMoveAndLeftClick</Action>
+                 <Wait>500</Wait>            
+              </Loop>
+              <Label>Left Click</Label><Symbol>MouseLeftClickIcon</Symbol> 
+    </DynamicKey>
+
+    <DynamicKey>
+      <Symbol>BackIcon</Symbol>
+      <Action>BackFromKeyboard</Action>
+    </DynamicKey>
+    <DynamicKey>
+      <Symbol>MinimiseIcon</Symbol>
+      <ChangeKeyboard>HideUnder</ChangeKeyboard>
+    </DynamicKey>
+
+
+  </Content>
+</Keyboard>
