@@ -17,7 +17,7 @@
         <Cols>
             22</Cols>
     </Grid>
-    <KeyGroup BackgroundColor="black" CompletionTimes="1%, 10%" KeyDownOpacity="1" LockOnTime="0"
+    <KeyGroup BackgroundColor="black" CompletionTimes="1%, 100%" KeyDownOpacity="1" LockOnTime="0"
         Name="QuickKey" Opacity="1,0" />    
     <KeyGroup BackgroundColor="black" CompletionTimes="50%" KeyDownOpacity="1" LockOnTime="25" Name="HalfSpeed" Opacity=".9"/>
     <KeyGroup AutoScaleToOneKeyHeight="false" AutoScaleToOneKeyWidth="false" Name="Scaling" />
