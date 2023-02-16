@@ -6,16 +6,14 @@
     <Height>90%</Height>
     <Position>Top</Position>
     <VerticalOffset>5%</VerticalOffset>
-    <Width>
-        98%</Width>
+    <Width>98%</Width>
     <BackgroundColor>Transparent</BackgroundColor>
     <BorderColor>Transparent</BorderColor>
     <WindowState>Floating</WindowState>
     <HideFromKeyboardMenu>true</HideFromKeyboardMenu>
     <Grid>
         <Rows>18</Rows>
-        <Cols>
-            22</Cols>
+        <Cols>22</Cols>
     </Grid>
     <KeyGroup BackgroundColor="black" CompletionTimes="1%, 100%" KeyDownOpacity="1" LockOnTime="0"
         Name="QuickKey" Opacity="1,0" />
@@ -24,12 +22,7 @@
     <KeyGroup AutoScaleToOneKeyHeight="false" AutoScaleToOneKeyWidth="false" Name="Scaling" />
 
     <Content>
-        <!-- <DynamicKey Col="0" Height="2" Row="0" Width="2">
-            <Label>
-                Fishing</Label>
-            <ChangeKeyboard BackReturnsHere="False">disney dreamlight valley Fishing</ChangeKeyboard>
-            <KeyGroup>QuickKey</KeyGroup> TODO: 50% dwell or something -->
-
+       
         <DynamicKey Col="2" Height="2" Row="0" Width="2">
             <Label>L thumb</Label>
             <KeyToggle>XboxLeftThumb</KeyToggle>
@@ -37,46 +30,39 @@
 
         <DynamicKey Col="4" Height="2" Row="0" Width="2">
             <Label>Tank\ncontrols</Label>
-            <Action>
-                LegacyJoystick</Action>
+            <Action>LegacyJoystick</Action>
         </DynamicKey>
         <DynamicKey Col="6" Height="2" Row="0" Width="2">
             <Label>Move</Label>
             <Action>LeftJoystick</Action>
         </DynamicKey>
         <DynamicKey Col="13" Height="2" Row="0" Width="2">
-            <Label>
-                Look</Label>
+            <Label>Look</Label>
             <Action>RightJoystick</Action>
         </DynamicKey>
         <DynamicKey Col="15" Height="2" Row="0" Width="2">
             <Label>Walk</Label>
-            <KeyToggle PauseWhenLookingAtAnyKey="true">
-                XBoxLeftThumb|Forward|1.0</KeyToggle>
+            <KeyToggle PauseWhenLookingAtAnyKey="true">XBoxLeftThumb|Forward|1.0</KeyToggle>
         </DynamicKey>
 
         <DynamicKey Col="17" Height="2" Row="0" Width="2">
             <Label>R thumb</Label>
-            <KeyToggle>
-                XboxRightThumb</KeyToggle>
+            <KeyToggle>XboxRightThumb</KeyToggle>
         </DynamicKey>
 
         <DynamicKey Col="19" Height="2" Row="0" Width="2">
             <Label>D-Pad</Label>
             <KeyGroup>HalfSpeed</KeyGroup>
-            <ChangeKeyboard BackReturnsHere="False">
-                Hogwarts_Legacy_dpad</ChangeKeyboard>
+            <ChangeKeyboard BackReturnsHere="False">Hogwarts_Legacy_dpad</ChangeKeyboard>
         </DynamicKey>
 
         <DynamicKey Col="1" Height="2" Row="2" Width="2">
             <Label>Slow\nwalk</Label>
-            <KeyToggle PauseWhenLookingAtAnyKey="true">
-                XBoxLeftThumb|Forward|0.5</KeyToggle>
+            <KeyToggle PauseWhenLookingAtAnyKey="true">XBoxLeftThumb|Forward|0.5</KeyToggle>
         </DynamicKey>
         <DynamicKey Col="3" Height="2" Row="2" Width="2">
             <Label>LT\nToggle</Label>
-            <KeyToggle PauseWhenLookingAtThisKey="true">
-                XboxLeftTrigger</KeyToggle>
+            <KeyToggle PauseWhenLookingAtThisKey="true">XboxLeftTrigger</KeyToggle>
         </DynamicKey>
         <DynamicKey Col="5" Height="2" Row="2" Width="2">
             <Label>Menu</Label>
@@ -86,23 +72,21 @@
             <Label>RT</Label>
             <KeyPress>XboxRightTrigger</KeyPress>
         </DynamicKey> -->
-        <DynamicKey Col="5" Height="2" Row="13" Width="2"> > <KeyGroup>QuickKey</KeyGroup>
-            <Label>
-            RT\nToggle</Label>
+        <DynamicKey Col="5" Height="2" Row="13" Width="2"> 
+            <KeyGroup>QuickKey</KeyGroup>
+            <Label>RT\nToggle</Label>
             <KeyToggle PauseWhenLookingAtThisKey="true">XboxRightTrigger</KeyToggle>
         </DynamicKey>
 
         <DynamicKey Col="0" Height="2" Row="9" Width="2">
-            <Label>
-                X</Label>
+            <Label>X</Label>
             <KeyGroup>QuickKey</KeyGroup>
             <KeyPress>XBoxX</KeyPress>
         </DynamicKey>
         <DynamicKey Col="0" Height="2" Row="11" Width="2">
             <Label>Y</Label>
             <KeyGroup>QuickKey</KeyGroup>
-            <KeyPress>
-                XBoxY</KeyPress>
+            <KeyPress>XBoxY</KeyPress>
         </DynamicKey>
 
         <DynamicKey Col="0" Height="2" Row="13" Width="2">
@@ -111,16 +95,14 @@
             <KeyPress>XBoxA</KeyPress>
         </DynamicKey>
         <DynamicKey Col="0" Height="2" Row="15" Width="2">
-            <Label>
-                B</Label>
+            <Label>B</Label>
             <KeyGroup>QuickKey</KeyGroup>
             <KeyPress>XBoxB</KeyPress>
         </DynamicKey>
 
         <DynamicKey Col="3" Height="2" Row="16" Width="2">
             <Label>Toggle\nY</Label>
-            <KeyGroup>
-                QuickKey</KeyGroup>
+            <KeyGroup>QuickKey</KeyGroup>
             <KeyPress>XBoxY</KeyPress>
         </DynamicKey>
 
@@ -129,7 +111,6 @@
             <Label>1</Label>
             <KeyGroup>QuickKey</KeyGroup>
             <Text>1</Text>
-
         </DynamicKey>
         <DynamicKey Col="20" Height="2" Row="11" Width="2">
             <Label>2</Label>
@@ -155,21 +136,18 @@
         </DynamicKey>
 
         <DynamicKey Col="16" Height="2" Row="16" Width="2">
-            <Label>
-                LB+RB</Label>
+            <Label>LB+RB</Label>
             <KeyDown>XboxRightShoulder</KeyDown>
             <KeyPress>XboxLeftShoulder</KeyPress>
             <KeyUp>XboxRightShoulder</KeyUp>
         </DynamicKey>
         <DynamicKey Col="18" Height="2" Row="14" Width="2">
-            <Label>
-                Minimise</Label>
+            <Label>Minimise</Label>
             <ChangeKeyboard>asdjioh asduio sahu</ChangeKeyboard>
         </DynamicKey>
         <DynamicKey Col="18" Height="2" Row="16" Width="2">
             <Label>Back</Label>
-            <Action>
-                BackFromKeyboard</Action>
+            <Action>BackFromKeyboard</Action>
         </DynamicKey>
     </Content>
 </Keyboard>
