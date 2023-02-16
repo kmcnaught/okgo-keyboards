@@ -61,7 +61,7 @@
         <DynamicKey Col="19" Height="2" Row="0" Width="2">
             <Label>D-Pad</Label>                        
             <KeyGroup>HalfSpeed</KeyGroup>
-            <ChangeKeyboard BackReturnsHere="False">Hogwarts Legacy dpad</ChangeKeyboard>
+            <ChangeKeyboard BackReturnsHere="False">Hogwarts_Legacy_dpad</ChangeKeyboard>
         </DynamicKey>
         
         <DynamicKey Col="1" Height="2" Row="2" Width="2">
