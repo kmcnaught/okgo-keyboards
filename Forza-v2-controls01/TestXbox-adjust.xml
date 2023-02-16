@@ -1,0 +1,123 @@
+<!--  
+Copyright (c) K McNaught Consulting Ltd (UK company number 11297717) - All Rights Reserved
+-->
+<Keyboard>
+  <Name>Menu</Name>
+  <SymbolMargin>10</SymbolMargin>
+  <BackgroundColor>Transparent</BackgroundColor>
+  <Height>100%</Height>
+  <Width>100%</Width>
+  <Position>Bottom</Position>
+  <BackgroundColor>Transparent</BackgroundColor>
+  <BorderColor>Transparent</BorderColor>
+  <HideFromKeyboardMenu>true</HideFromKeyboardMenu>
+  <Grid>
+    <Rows>7</Rows>
+    <Cols>10</Cols>
+  </Grid>
+  <KeyGroup BackgroundColor="black" CompletionTimes="10, 1000" KeyDownOpacity="1" LockOnTime="25" Name="QuickKey" Opacity=".9"/>
+  <KeyGroup BackgroundColor="black" CompletionTimes="50%" KeyDownOpacity="1" LockOnTime="25" Name="HalfSpeed" Opacity=".9"/>
+  <KeyGroup AutoScaleToOneKeyHeight="false" AutoScaleToOneKeyWidth="false" Name="Scaling"/>
+  <Content>
+    <DynamicKey Col="0" Row="0">
+      <Label>Start/\nMenu</Label>
+      <KeyPress>XboxStart</KeyPress>
+    </DynamicKey>
+    <DynamicKey Col="0" Row="1">
+      <Label>Back/\nView</Label>
+      <KeyPress>XboxBack</KeyPress>
+    </DynamicKey>
+    <DynamicKey Col="2" Row="6">
+      <Label>L Joy\n(slow)</Label>
+      <Action Payload="1.1, 1.5">LeftJoystick</Action> 
+    </DynamicKey>
+    <DynamicKey Col="3" Row="6">
+      <Label>L Joy\n(move)</Label>
+      <Action Payload="1.6, 2.1">LeftJoystick</Action>
+    </DynamicKey>
+    <DynamicKey Col="6" Row="6">
+      <Label>Zoom in</Label>
+      <KeyPress Duration="200">XBoxRightThumb|North|1.0</KeyPress>
+    </DynamicKey>
+    <DynamicKey Col="7" Row="6">
+      <Label>Zoom out</Label>
+      <KeyPress Duration="200">XBoxRightThumb|South|1.0</KeyPress>
+    </DynamicKey>
+
+<!--     <DynamicKey Col="7" Row="0">
+      <Label>Minimise</Label>
+      <Action>Minimise</Action>
+    </DynamicKey> -->
+    <DynamicKey Col="9" Row="0">
+      <Label>D-pad</Label>
+      <KeyGroup>HalfSpeed</KeyGroup>
+      <ChangeKeyboard BackReturnsHere="False">TestXboxMore</ChangeKeyboard>
+    </DynamicKey>
+    
+    <!-- <DynamicKey Col="7" Row="0">
+      <Label>Walk</Label>
+      <KeyToggle PauseWhenLookingAtAnyKey="true">XBoxLeftThumb|North|0.75</KeyToggle>
+    </DynamicKey> -->
+    <DynamicKey Col="2" Row="0">      
+      <Label>LB</Label>
+      <KeyPress>XboxLeftShoulder</KeyPress>
+    </DynamicKey>
+    
+    <DynamicKey Col="0" Row="6">
+      <Label>Reset\nCentre</Label>
+      <Action>ResetJoystick</Action>
+    </DynamicKey>
+
+    
+    <DynamicKey Col="9" Row="4">
+      <Label>X</Label>  
+      <KeyPress>XboxX</KeyPress>    
+    </DynamicKey>
+    <DynamicKey Col="9" Row="5">
+      <Label>Y</Label>
+      <KeyPress>XboxY</KeyPress>                
+    </DynamicKey>
+   
+    <DynamicKey Col="7" Row="0">
+        <Label>RB</Label>
+        <KeyPress>XboxRightShoulder</KeyPress>                
+    </DynamicKey>
+    
+    <DynamicKey Col="9" Row="6">
+      <Symbol>BackIcon</Symbol>
+      <Action>BackFromKeyboard</Action>
+    </DynamicKey>
+    <!-- <DynamicKey Col="0" Row="6">
+      <Label>Joystick\nSettings</Label>
+      <ChangeKeyboard BackReturnsHere="True">../joystick_settings</ChangeKeyboard>
+    </DynamicKey> -->
+
+
+    <DynamicKey Row="4" Col="0">
+      <Label>Copy\nsettings</Label>
+      <Action>CopyJoystickSettings</Action>
+    </DynamicKey>
+    <DynamicKey Row="4" Col="1">
+      <Label>Vertical\nsensitivity ++</Label>
+      <Action>JoystickYSensitivityUp</Action>
+      <KeyGroup>AcceleratingKey</KeyGroup>
+    </DynamicKey>
+    <DynamicKey Row="5" Col="0">
+      <Label>Horizontal\nsensitivity --</Label>
+      <Action>JoystickXSensitivityDown</Action>
+      <KeyGroup>AcceleratingKey</KeyGroup>
+    </DynamicKey>
+    
+    <DynamicKey Row="5" Col="2">
+      <Label>Horizontal\nsensitivity ++</Label>
+      <Action>JoystickXSensitivityUp</Action>
+      <KeyGroup>AcceleratingKey</KeyGroup>      
+    </DynamicKey>    
+    <DynamicKey Row="6" Col="1">
+      <Label>Vertical\nsensitivity −−</Label>
+      <Action>JoystickYSensitivityDown</Action>
+      <KeyGroup>AcceleratingKey</KeyGroup>
+    </DynamicKey>
+    
+  </Content>
+</Keyboard>
