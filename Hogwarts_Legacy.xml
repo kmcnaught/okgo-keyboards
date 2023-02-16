@@ -82,7 +82,8 @@
             <Label>RT</Label>
             <KeyPress>XboxRightTrigger</KeyPress>
         </DynamicKey> -->
-        <DynamicKey Col="16" Height="2" Row="2" Width="2">
+        <DynamicKey Col="5" Height="2" Row="13" Width="2">>
+            <KeyGroup>QuickKey</KeyGroup>
             <Label>RT\nToggle</Label>
             <KeyToggle PauseWhenLookingAtThisKey="true">XboxRightTrigger</KeyToggle>
         </DynamicKey>        
@@ -120,7 +121,10 @@
             <Label>RT+X</Label>
             <KeyGroup>QuickKey</KeyGroup>
             <KeyDown>XboxRightTrigger</KeyDown>
-            <KeyPress>XBoxX</KeyPress>
+            <wait>100</wait>
+            <KeyDown>XBoxX</KeyDown>
+            <wait>100</wait>
+            <KeyUp>XBoxX</KeyUp>
             <KeyUp>XboxRightTrigger</KeyUp>
         </DynamicKey>
         <DynamicKey Col="20" Height="2" Row="11" Width="2">
@@ -134,6 +138,7 @@
             <Label>RT+A</Label>
             <KeyGroup>QuickKey</KeyGroup>
             <KeyDown>XboxRightTrigger</KeyDown>
+            <wait>500</wait>
             <KeyPress>XBoxA</KeyPress>
             <KeyUp>XboxRightTrigger</KeyUp>
         </DynamicKey>
@@ -141,7 +146,9 @@
             <Label>RT+B</Label>
             <KeyGroup>QuickKey</KeyGroup>
             <KeyDown>XboxRightTrigger</KeyDown>
+            <wait>300</wait>
             <KeyPress>XBoxB</KeyPress>
+            <wait>300</wait>
             <KeyUp>XboxRightTrigger</KeyUp>
         </DynamicKey>
 

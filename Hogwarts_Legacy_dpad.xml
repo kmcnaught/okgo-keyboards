@@ -148,16 +148,14 @@
             <wait>100</wait>
             <KeyDown>XBoxX</KeyDown>
             <wait>100</wait>
-            <KeyUp>XBoxY</KeyUp>
+            <KeyUp>XBoxX</KeyUp>
             <KeyUp>XboxRightTrigger</KeyUp>
         </DynamicKey>
         <DynamicKey Col="20" Height="2" Row="11" Width="2">
             <Label>RT+Y</Label>
             <KeyGroup>QuickKey</KeyGroup>
             <KeyDown>XboxRightTrigger</KeyDown>
-            <wait>300</wait>
-            <KeyDown>XBoxY</KeyDown>
-            <wait>300</wait>
+            <KeyPress>XBoxY</KeyPress>
             <KeyUp>XboxRightTrigger</KeyUp>
         </DynamicKey>
         <DynamicKey Col="20" Height="2" Row="13" Width="2">
