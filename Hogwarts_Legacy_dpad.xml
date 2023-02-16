@@ -18,7 +18,8 @@
     </Grid>
     <KeyGroup BackgroundColor="black" CompletionTimes="1%, 100%" KeyDownOpacity="1" LockOnTime="0"
         Name="QuickKey" Opacity="1,0" />
-    <KeyGroup BackgroundColor="black" CompletionTimes="50%" KeyDownOpacity="1" LockOnTime="25" Name="HalfSpeed" Opacity=".9"/>
+    <KeyGroup BackgroundColor="black" CompletionTimes="50%" KeyDownOpacity="1" LockOnTime="25"
+        Name="HalfSpeed" Opacity=".9" />
     <KeyGroup AutoScaleToOneKeyHeight="false" AutoScaleToOneKeyWidth="false" Name="Scaling" />
 
     <Content>
@@ -31,7 +32,7 @@
         <DynamicKey Col="2" Height="2" Row="0" Width="2">
             <Label>L thumb</Label>
             <KeyToggle>XboxLeftThumb</KeyToggle>
-        </DynamicKey> 
+        </DynamicKey>
 
         <DynamicKey Col="4" Height="2" Row="0" Width="2">
             <Label>Tank\ncontrols</Label>
@@ -55,14 +56,14 @@
         <DynamicKey Col="17" Height="2" Row="0" Width="2">
             <Label>R thumb</Label>
             <KeyToggle>XboxRightThumb</KeyToggle>
-        </DynamicKey> 
+        </DynamicKey>
 
         <DynamicKey Col="19" Height="2" Row="0" Width="2">
-            <Label>D-Pad</Label>                        
+            <Label>D-Pad</Label>
             <KeyGroup>HalfSpeed</KeyGroup>
             <ChangeKeyboard BackReturnsHere="False">Hogwarts_Legacy</ChangeKeyboard>
         </DynamicKey>
-        
+
         <DynamicKey Col="1" Height="2" Row="2" Width="2">
             <Label>Slow\nwalk</Label>
             <KeyToggle PauseWhenLookingAtAnyKey="true">
@@ -81,15 +82,15 @@
             <Label>RT</Label>
             <KeyPress>XboxRightTrigger</KeyPress>
         </DynamicKey> -->
-        <DynamicKey Col="5" Height="2" Row="13" Width="2">>
-            <Label>RT\nToggle</Label>
-            <KeyGroup>QuickKey</KeyGroup>
+        <DynamicKey Col="5" Height="2" Row="13" Width="2">> <Label>RT\nToggle</Label>
+            <KeyGroup>
+            QuickKey</KeyGroup>
             <KeyToggle PauseWhenLookingAtThisKey="true">XboxRightTrigger</KeyToggle>
         </DynamicKey>
         <DynamicKey Col="18" Height="2" Row="3" Width="2">
             <KeyGroup>AcceleratingKey</KeyGroup>
             <Symbol>ArrowPointingToTopIcon</Symbol>
-            <KeyPress>XBoxUp</KeyPress>     
+            <KeyPress>XBoxUp</KeyPress>
         </DynamicKey>
         <DynamicKey Col="16" Height="2" Row="5" Width="2">
             <KeyGroup>AcceleratingKey</KeyGroup>
@@ -97,25 +98,25 @@
             <KeyPress>XBoxLeft</KeyPress>
         </DynamicKey>
         <DynamicKey Col="18" Height="2" Row="5" Width="2">
-            <Label>toggle\nd up</Label>     
-            <KeyToggle>XBoxUp</KeyToggle>     
+            <Label>toggle\nd up</Label>
+            <KeyToggle>XBoxUp</KeyToggle>
         </DynamicKey>
         <DynamicKey Col="20" Height="2" Row="5" Width="2">
             <KeyGroup>AcceleratingKey</KeyGroup>
             <Symbol>ArrowPointingToRightIcon</Symbol>
-            <KeyPress>XBoxRight</KeyPress>          
+            <KeyPress>XBoxRight</KeyPress>
         </DynamicKey>
         <DynamicKey Col="18" Height="2" Row="7" Width="2">
             <KeyGroup>AcceleratingKey</KeyGroup>
-            <Symbol>ArrowPointingToBottomIcon</Symbol>      
-            <KeyPress>XBoxDown</KeyPress>      
+            <Symbol>ArrowPointingToBottomIcon</Symbol>
+            <KeyPress>XBoxDown</KeyPress>
         </DynamicKey>
 
 
         <DynamicKey Col="0" Height="2" Row="9" Width="2">
             <Label>X</Label>
             <KeyGroup>QuickKey</KeyGroup>
-            <KeyPress>XBoxX</KeyPress>                        
+            <KeyPress>XBoxX</KeyPress>
         </DynamicKey>
         <DynamicKey Col="0" Height="2" Row="11" Width="2">
             <Label>Y</Label>
@@ -142,38 +143,25 @@
 
 
         <DynamicKey Col="20" Height="2" Row="9" Width="2">
-            <Label>RT+X</Label>
+            <Label>1</Label>
             <KeyGroup>QuickKey</KeyGroup>
-            <KeyDown>XboxRightTrigger</KeyDown>
-            <wait>100</wait>
-            <KeyDown>XBoxX</KeyDown>
-            <wait>100</wait>
-            <KeyUp>XBoxX</KeyUp>
-            <KeyUp>XboxRightTrigger</KeyUp>
+            <Text>1</Text>
+
         </DynamicKey>
         <DynamicKey Col="20" Height="2" Row="11" Width="2">
-            <Label>RT+Y</Label>
+            <Label>2</Label>
             <KeyGroup>QuickKey</KeyGroup>
-            <KeyDown>XboxRightTrigger</KeyDown>
-            <KeyPress>XBoxY</KeyPress>
-            <KeyUp>XboxRightTrigger</KeyUp>
+            <Text>2</Text>
         </DynamicKey>
         <DynamicKey Col="20" Height="2" Row="13" Width="2">
-            <Label>RT+A</Label>
+            <Label>3</Label>
             <KeyGroup>QuickKey</KeyGroup>
-            <KeyDown>XboxRightTrigger</KeyDown>
-            <wait>500</wait>
-            <KeyPress>XBoxA</KeyPress>
-            <KeyUp>XboxRightTrigger</KeyUp>
+            <Text>3</Text>
         </DynamicKey>
         <DynamicKey Col="20" Height="2" Row="15" Width="2">
-            <Label>RT+B</Label>
+            <Label>4</Label>
             <KeyGroup>QuickKey</KeyGroup>
-            <KeyDown>XboxRightTrigger</KeyDown>
-            <wait>300</wait>
-            <KeyPress>XBoxB</KeyPress>
-            <wait>300</wait>
-            <KeyUp>XboxRightTrigger</KeyUp>
+            <Text>4</Text>
         </DynamicKey>
 
 
