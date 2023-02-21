@@ -68,7 +68,8 @@
     </DynamicKey>
 
     <DynamicKey Row="7" Col="3">
-      <Label>Steer</Label>      
+      <Label>Steer</Label>    
+      <Action Payload="LegacyTriggerJoystick:0.5, 0.8">SetJoystickCentre</Action>  
       <Action Payload="2.09, 3.93">LegacyTriggerJoystick</Action>   
     </DynamicKey>
 
