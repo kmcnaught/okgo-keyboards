@@ -1,0 +1,59 @@
+<Keyboard>
+  <Name>Kingdom\nStarter</Name>
+
+  <WindowState>Docked</WindowState>
+  <Position>Bottom</Position>  
+  <Height>50%</Height>    
+
+  <BackgroundColor>DarkGray</BackgroundColor>
+
+  <Grid>
+    <Rows>2</Rows> 
+    <Cols>8</Cols>
+  </Grid>
+
+  <Content>
+
+    <!-- list of keys goes in here -->
+
+    <DynamicKey>      
+      <Label>a</Label>
+      <KeyPress>a</KeyPress>        
+    </DynamicKey>
+
+    <DynamicKey>      
+      <Label>s</Label>
+      <KeyPress>s</KeyPress>        
+    </DynamicKey>
+
+    <DynamicKey>      
+      <Label>d</Label>
+      <KeyPress>d</KeyPress>              
+    </DynamicKey>
+
+    <!-- here are some empty keys for you to fill in -->
+
+    <DynamicKey>
+      <!-- put labels, key actions etc in here-->  
+    </DynamicKey>
+
+    <DynamicKey>
+      <!-- put labels, key actions etc in here-->  
+    </DynamicKey>
+
+    <DynamicKey>
+      <!-- put labels, key actions etc in here-->  
+    </DynamicKey>
+
+    <!-- you can also add more new keys until it runs out of space -->
+    
+
+
+    <!-- the back key has been put in the bottom right by setting the Row and Col attributes -->
+    <DynamicKey Row="1" Col="7">
+      <Symbol>BackIcon</Symbol>
+      <Action>BackFromKeyboard</Action>
+    </DynamicKey>
+    
+  </Content>
+</Keyboard>
